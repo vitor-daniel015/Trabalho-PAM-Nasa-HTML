@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Projeto - NASA API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="/img/LOGO.png">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/LOGO.png" alt="NASA Logo" width="50" class="d-inline-block align-text-top me-2">
+                Explorando o Universo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mars.html">Marte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apod.html">Foto do Dia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meteor.html">Meteoros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-header text-white">
+        <div class="container">
+            <h1 class="display-2 fw-bold">Sobre o Projeto</h1>
+            <p class="lead fw-light">Uma jornada científica e curiosa através do cosmos.</p>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="card p-4 h-100">
+                    <div class="card-body">
+                        <h2 class="card-title text-light mb-4 text-color">Propósito e Objetivos</h2>
+                        <p class="text-color">Este projeto foi desenvolvido como um trabalho
+                            individual para a disciplina de Desenvolvimento Web, com o objetivo principal de aplicar os
+                            conhecimentos adquiridos em sala de aula na construção de um site dinâmico e interativo. A
+                            temática da NASA e do universo foi escolhida para explorar dados fascinantes e criar uma
+                            experiência envolvente para o usuário.</p>
+                        <h4 class="text-color">Os principais objetivos incluem:</h4>
+                        <ul class="text-color">
+                            <li>Consumir diversas APIs públicas da NASA para exibir dados em tempo real.</li>
+                            <li>Utilizar o framework Bootstrap para garantir um design responsivo e moderno.</li>
+                            <li>Aplicar conceitos avançados de JavaScript como <code>filter</code>,
+                                <code>findIndex</code>, <code>map</code>, <code>join</code>, e o
+                                <code>spread operator (...)</code> para manipulação eficiente de arrays e dados.
+                            </li>
+                            <li>Estruturar o site com múltiplas páginas, incluindo carrossel, galerias de imagens e
+                                seções de texto informativo.</li>
+                            <li>Incorporar efeitos visuais como Parallax para uma experiência de usuário mais imersiva.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card p-4 h-100">
+                    <div class="card-body">
+                        <h2 class="card-title text-light mb-4">Tecnologias Utilizadas</h2>
+                        <p class="text-color">Para a construção deste site, foram empregadas as seguintes
+                            tecnologias:</p>
+                        <ul class="text-color">
+                            <li class="text-color"><strong>HTML5:</strong> Para a estrutura e conteúdo das páginas.</li>
+                            <li><strong>CSS3:</strong> Para estilização, incluindo customizações e o efeito Parallax.
+                            </li>
+                            <li><strong>JavaScript (ES6+):</strong> Para a lógica de consumo de APIs, manipulação do DOM
+                                e aplicação dos conceitos de array.</li>
+                            <li><strong>Bootstrap 5:</strong> Como framework CSS para layout responsivo, componentes de
+                                UI (navbar, carrossel, cards, etc.).</li>
+                            <li><strong>APIs da NASA:</strong>
+                                <ul>
+                                    <li>Astronomy Picture of the Day (APOD)</li>
+                                    <li>Mars Rover Photos</li>
+                                    <li>NeoWs (Near Earth Object Web Service)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <div class="card p-4">
+                    <div class="card-body">
+                        <h2 class="card-title text-light mb-3">O Desenvolvedor</h2>
+                        <p class="text-color">Este projeto foi idealizado e desenvolvido por Vitor Daniel. A paixão pela exploração espacial e o aprendizado contínuo foram as
+                            forças motrizes por trás deste trabalho.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 mb-4">
+                    <h4>APIs da NASA</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://api.nasa.gov/" target="_blank">Portal da API</a></li>
+                        <li><a href="https://api.nasa.gov/api.html#apod" target="_blank">APOD</a></li>
+                        <li><a href="https://api.nasa.gov/api.html#mars-photos" target="_blank">Mars Rover Photos</a>
+                        </li>
+                        <li><a href="https://api.nasa.gov/api.html#eonet" target="_blank">EONET</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h4>NASA Oficial</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.nasa.gov/" target="_blank">Site Oficial da NASA</a></li>
+                        <li><a href="https://www.nasa.gov/nasa-social-media/" target="_blank">Mídias Sociais</a></li>
+                        <li><a href="https://www.nasa.gov/press-release/" target="_blank">Notícias</a></li>
+                        <li><a href="https://www.nasa.gov/jobs/" target="_blank">Carreiras</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h4>Recursos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sobre o Projeto</a></li>
+                        <li><a href="#">Documentação da API</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 text-center">
+                    <h4 class="mb-3">Siga a NASA</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nasa" target="_blank" class="me-2"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/nasa" target="_blank" class="me-2"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nasa/" target="_blank" class="me-2"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/nasa" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center pt-4 mt-4 border-top border-secondary">
+                <p class="text-color mb-0">&copy; 2025 Projeto Baseado na NASA API. Todos os direitos reservados. Este
+                    site não é afiliado à NASA, mas usa suas APIs públicas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

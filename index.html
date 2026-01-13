@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando o Universo - NASA API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/LOGO.png">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/LOGO.png" alt="NASA Logo" width="50" class="d-inline-block align-text-top me-2">
+                Explorando o Universo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mars.html">Marte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apod.html">Foto do Dia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meteor.html">Meteoros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="parallax-bg" style="background-image: url('./img/pexels-jacub-gomez-447561-1142950.jpg');">
+        <div class="parallax-overlay text-white text-center">
+            <h1 class="display-3 fw-bold">Universo Espetacular</h1>
+            <p class="fs-5">Descubra as maravilhas do cosmos através das lentes da NASA.</p>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-5 text-light">Destaques da Galeria 🌌</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="gallery-highlights">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg" class="card-img-top" alt="Nebulosa de Órion">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Nebulosa de Órion</h5>
+                        <p class="text-color">Uma das nebulosas mais brilhantes e famosas, berço de estrelas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/images.jfif" class="card-img-top" alt="Galáxia de Andrômeda">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Galáxia de Andrômeda</h5>
+                        <p class="text-color">Nossa vizinha galáctica, em rota de colisão com a Via Láctea.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/turismo-aurora-boreal.jpg" class="card-img-top" alt="Aurora Boreal">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Aurora Boreal</h5>
+                        <p class="text-color">Um espetáculo de luzes celestiais na atmosfera terrestre.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="apod.html" class="btn btn-outline-light btn-lg rounded-pill px-5">Ver mais Fotos do Dia 🚀</a>
+        </div>
+    </section>
+
+    <section class="parallax-bg" style="background-image: url('./img/pexels-pixabay-2150.jpg');">
+        <div class="parallax-overlay text-white text-center">
+            <h1 class="display-3 fw-bold">Beleza Galáctica</h1>
+            <p class="fs-5">Imagens deslumbrantes de galáxias distantes, como a nossa vizinha Andrômeda.</p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5 text-light">Explorando Marte</h2>
+        <p class="lead text-center text-color">
+            A curiosidade de explorar o Planeta Vermelho é contínua. Mergulhe em nossa seção dedicada para ver as últimas imagens dos rovers da NASA e aprender sobre as descobertas mais recentes.
+        </p>
+        <div class="text-center mt-4">
+            <a href="mars.html" class="btn btn-outline-light btn-lg rounded-pill px-5">Explorar Marte 🔭</a>
+        </div>
+    </div>
+    
+    <section class="parallax-bg" style="background-image: url('./img/pexels-pixabay-41006.jpg');">
+        <div class="parallax-overlay text-white text-center">
+            <h1 class="display-3 fw-bold">Explorando Marte</h1>
+            <p class="fs-5">As últimas descobertas do Planeta Vermelho, diretamente dos rovers da NASA.</p>
+        </div>
+    </section>
+
+    <footer class="footer mt-auto py-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 mb-4">
+                    <h4>APIs da NASA</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://api.nasa.gov/" target="_blank">Portal da API</a></li>
+                        <li><a href="https://api.nasa.gov/api.html#apod" target="_blank">APOD</a></li>
+                        <li><a href="https://api.nasa.gov/api.html#mars-photos" target="_blank">Mars Rover Photos</a></li>
+                        <li><a href="https://api.nasa.gov/api.html#eonet" target="_blank">EONET</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h4>NASA Oficial</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.nasa.gov/" target="_blank">Site Oficial da NASA</a></li>
+                        <li><a href="https://www.nasa.gov/nasa-social-media/" target="_blank">Mídias Sociais</a></li>
+                        <li><a href="https://www.nasa.gov/press-release/" target="_blank">Notícias</a></li>
+                        <li><a href="https://www.nasa.gov/jobs/" target="_blank">Carreiras</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h4>Recursos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sobre o Projeto</a></li>
+                        <li><a href="#">Documentação da API</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 text-center">
+                    <h4 class="mb-3">Siga a NASA</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nasa" target="_blank" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/nasa" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nasa/" target="_blank" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/nasa" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center pt-4 mt-4 border-top border-secondary">
+                <p class="text-color mb-0">&copy; 2025 Projeto Baseado na NASA API. Todos os direitos reservados. Este site não é afiliado à NASA, mas usa suas APIs públicas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
